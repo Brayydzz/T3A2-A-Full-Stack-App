@@ -20,6 +20,9 @@ Employees can view all of there current delegated jobs
 
 Employees Can complete jobs via a job page and add notes to the completed job
 
+## **User Stories:**
+User stories can be found here on our Trello board - https://trello.com/b/1G3kz4wC/t3a2-cleaning-service
+
 ## **Tech Stack:**
 
 - Javascript
