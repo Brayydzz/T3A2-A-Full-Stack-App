@@ -38,6 +38,40 @@ User stories can be found here on our Trello board - https://trello.com/b/1G3kz4
 - dotenv
 
 ### **Ruby Gems:**
+
+## Gems
+
+#### Bcrypt
+Bcrypt is used for hashing passwords. Rails uses bcrypt with the keyword 
+password_digest
+ this stores the password safely and when retrieving User data it will filter out the password for security reasons. Bcrpyt is a hashing algorithm designed by Niels Provos and David Mazières of the OpenBSD Project. Hash algorithms take a chunk of data (e.g., your user's password) and create a "digital fingerprint," or hash, of it. Because this process is not reversible, there's no way to go from the hash back to the password.
+
+#### Cloudinary
+"Cloudinary is a cloud service that offers a solution to a web application's entire image management pipeline.
+
+Easily upload images to the cloud. Automatically perform smart image resizing, cropping and conversion without installing any complex software. Integrate Facebook or Twitter profile image extraction in a snap, in any dimension and style to match your website’s graphics requirements. Images are seamlessly delivered through a fast CDN, and much much more.
+
+Cloudinary offers comprehensive APIs and administration capabilities and is easy to integrate with any web application, existing or new.
+
+Cloudinary provides URL and HTTP based APIs that can be easily integrated with any Web development framework.
+
+For Ruby on Rails, Cloudinary provides a GEM for simplifying the integration even further."
+
+There is a hard coded limit of 10 images per job to stop abuse. 
+#### JWT
+JWT is used to decode and encode tokens to allow users to sign in and authenticate, as well as authorization. A ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) Standard (https://datatracker.ietf.org/doc/html/rfc7519). In the application controller we have made a few auth functions to help with this. There is a method for checking if someone is logged in, a method to decode the incoming token, a method to return the user that is logged in and a method to see if the person logged in is an admin.
+
+#### Dotenv
+Dot env allows us to create a '.env' file to save environmental variables to load them in where needed without having to hardcode values and allows us to have secret keys stored in one place and not in the code to push to github
+
+
+
+##### References
+https://github.com/cloudinary/cloudinary_gem
+https://github.com/jwt/ruby-jwt
+https://github.com/bcrypt-ruby/bcrypt-ruby
+
+
 - Cloudinary Gem
 - Active Model Serializer
 - JWT
