@@ -2,7 +2,7 @@
 
 ## **Purpose & Target Audience:**
 
-Our purpose is to build a full-stack application to assist a local cleaning business handle and manage her employees & clients. The application allows The employer to assign and delegate cleaning jobs to their employees via a Employee job page. Employee can view all of there assigned tasks and once they have completed a job, they can assign the job as complete and write any notes required for that job. Clients contact the employer via the contact page. The employer will assign and mage those tasks to a specific employee. The target audience for this application is for a business owner of a cleaning business needing an easier way to manage both their clients and employees.
+Our purpose is to build a full-stack application to assist a local cleaning business handle and manage her employees & clients. The application allows The employer to assign and delegate cleaning jobs to their employees via a Employee job page. Employee can view all of their assigned tasks and once they have completed a job, they can assign the job as complete and write any notes required for that job. Clients contact the employer via the contact page. The employer will assign and mage those tasks to a specific employee. The target audience for this application is for a business owner of a cleaning business needing an easier way to manage both their clients and employees.
 
 ## **Features:**
 
