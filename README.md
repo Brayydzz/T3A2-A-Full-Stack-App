@@ -1,5 +1,16 @@
 # T3A2 - A
 
+#### Deployed site
+
+Access to Homepage and booking form is on https://cleaning-management.netlify.app/
+Access to Admin and Employee login is on https://cleaning-management.netlify.app/dashboard
+
+Backend api - https://cleaning-managment-api.herokuapp.com/
+#### Repositories
+
+Github Backend - https://github.com/T3A2-DreamTeam/Cleaning-Management-Backend
+Github Frontend - https://github.com/Brayydzz/Cleaning-Management-Frontend
+
 ## **Purpose & Target Audience:**
 
 Our purpose is to build a full-stack application to assist a local cleaning business handle and manage her employees & clients. The application allows The employer to assign and delegate cleaning jobs to their employees via a Employee job page. Employee can view all of their assigned tasks and once they have completed a job, they can assign the job as complete and write any notes required for that job. Clients contact the employer via the contact page. The employer will assign and mage those tasks to a specific employee. The target audience for this application is for a business owner of a cleaning business needing an easier way to manage both their clients and employees.
@@ -112,6 +123,7 @@ https://github.com/jwt/ruby-jwt
 https://github.com/bcrypt-ruby/bcrypt-ruby
 
 ### **Manual Testing:**
+
 
 Admin login:
 email - a@b.com
